@@ -1,10 +1,13 @@
 Revision history for Perl extension Text::Positional::Ngram.
 
-0.01  Mon Feb  2 17:35:56 2004
+0.1  Mon Feb  2 17:35:56 2004
 	- original version; created by h2xs 1.22 with options
 		-X -n Text::Positional::Ngram
 
-0.02 Tue Apr 20 13:31:34 2004
+0.2 Tue Apr 20 13:31:34 2004
         - updated the Perldoc and Readme documentation
         - removed the normal-op.pl tests
         - added text-positional-ngram-driver.pl program
+
+0.3 Fri Apr 30 10:15:45 2004
+	- modified a bug in the driver program

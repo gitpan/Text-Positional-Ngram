@@ -176,7 +176,7 @@ foreach $element (@ARGV) {
 }
 
 #  create the files necessary to run the module
-$text->create_files(@ARGV);
+$text->create_files(@files);
 
 #  get the ngrams
 $text->get_ngrams();
@@ -193,7 +193,7 @@ sub askHelp
 # function to output the version number
 sub showVersion
 {
-    print STDERR "text-positional-ngram-driver.pl -   version 0.02\n";
+    print STDERR "text-positional-ngram-driver.pl -   version 0.3\n";
     print STDERR "Copyright (C) 2003-2004, Bridget Thomson McInnes\n";
     print STDERR "Date of Last Update 20/04/04\n";
 
