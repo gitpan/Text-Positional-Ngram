@@ -15,7 +15,15 @@ The module:
    *  allows for a frequency cutoff
    *  allows for a remove cutoff
 
+PERL
+------------------------------
+
+This package requires Perl version 5.8 or higher. Perl is freely 
+available at http://www.perl.org. 
+
+
 INSTALLATION
+------------------------------
 
 There are multiple ways to install this package.
 
@@ -35,10 +43,15 @@ There are multiple ways to install this package.
       make install
 
 DEPENDENCIES
+------------------------------
+This program requires Perl version 5.8 or higher.
 
 This module does not require any other modules or libraries.
 
-PROGRAM :  text-positional-ngram-driver.pl
+PROGRAM :  
+------------------------------
+
+text-positional-ngram-driver.pl
 
   This program takes as input a flat ASCII text file and outputs all
   Ngrams, or token sequences of length 'n', where the value of 'n' 
@@ -290,8 +303,9 @@ PROGRAM :  text-positional-ngram-driver.pl
 
 
 COPYRIGHT AND LICENCE
+------------------------------
 
-Copyright (C) 2004, Bridget Thomson McInnes
+Copyright (C) 2004-2007, Bridget T McInnes and Ted Pedersen
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

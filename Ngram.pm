@@ -1,8 +1,10 @@
 #########################################################################
 # PACKAGE: Text::Positional::Ngram
 #
-# Copyright (C), 2004
-# Bridget Thomson McInnes,       bthomson@d.umn.edu
+# Copyright (C), 2004-2007
+#
+# Bridget T McInnes,       bthomson@d.umn.edu
+# Ted Pedersenm            tpederse@d.umn.edu
 #
 # University of Minnesota, Duluth
 #
@@ -1023,6 +1025,7 @@ Then, we get the following tokens:
 
     Sets the size of the window in which positional 
     ngram can be found in.
+
 =head1 AUTHOR
 
 Bridget Thomson McInnes, bthomson@d.umn.edu
@@ -1049,7 +1052,7 @@ used.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2004, Bridget Thomson McInnes
+Copyright (C) 2004-2007, Bridget T McInnes and Ted Pedersen
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

@@ -11,3 +11,7 @@ Revision history for Perl extension Text::Positional::Ngram.
 
 0.3 Fri Apr 30 10:15:45 2004
 	- modified a bug in the driver program
+
+0.4 Wed Aug 22 15:16:23 2007
+        - updated program and documentation to require
+	  only Perl version 5.08 or higher 
