@@ -15,15 +15,18 @@ The module:
    *  allows for a frequency cutoff
    *  allows for a remove cutoff
 
-PERL
-------------------------------
+REQUIREMENTS
+===================================
 
-This package requires Perl version 5.8 or higher. Perl is freely 
-available at http://www.perl.org. 
+This module REQUIRES that the following software be download 
+and installed. 
+
+--Programming Languages
+Perl (version 5.8.5 or better)
 
 
 INSTALLATION
-------------------------------
+===================================
 
 There are multiple ways to install this package.
 
@@ -42,14 +45,8 @@ There are multiple ways to install this package.
       make test
       make install
 
-DEPENDENCIES
-------------------------------
-This program requires Perl version 5.8 or higher.
-
-This module does not require any other modules or libraries.
-
 PROGRAM :  
-------------------------------
+===================================
 
 text-positional-ngram-driver.pl
 
@@ -151,7 +148,7 @@ text-positional-ngram-driver.pl
 		 % text-positional-ngram-driver.pl test.out test.txt 
 
 	 The output will contain all the bigrams found in the file test.txt
-	 uing the default tokens as specified above. The contents of the 
+	 using the default tokens as specified above. The contents of the 
 	 output file test.out would be:
 	
 		11
@@ -303,9 +300,9 @@ text-positional-ngram-driver.pl
 
 
 COPYRIGHT AND LICENCE
-------------------------------
+===================================
 
-Copyright (C) 2004-2007, Bridget T McInnes and Ted Pedersen
+Copyright (C) 2004-2007, Bridget Thomson McInnes
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

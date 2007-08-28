@@ -15,7 +15,7 @@ See README
 
 =head1 AUTHOR
 
-Bridget Thomson McInnes, bthomson@cs.umn.edu
+Bridget Thomson McInnes, bthomson@d.umn.edu
 
 Ted Pedersen, tpederse@d.umn.edu
 
@@ -25,7 +25,7 @@ Ted Pedersen, tpederse@d.umn.edu
 
 =head1 COPYRIGHT
 
-Copyright (C) 2004-2007, Bridget T. McInnes and Ted Pedersen 
+Copyright (C) 2004-2007, Bridget T. McInnes
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -193,9 +193,9 @@ sub askHelp
 # function to output the version number
 sub showVersion
 {
-    print STDERR "text-positional-ngram-driver.pl -   version 0.4\n";
+    print STDERR "text-positional-ngram-driver.pl -   version 0.5\n";
     print STDERR "Copyright (C) 2004-2007, Bridget Thomson McInnes\n";
-    print STDERR "Date of Last Update 22/08/07\n";
+    print STDERR "Date of Last Update 28/08/07\n";
 
 }
 

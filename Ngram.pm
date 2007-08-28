@@ -2,9 +2,7 @@
 # PACKAGE: Text::Positional::Ngram
 #
 # Copyright (C), 2004-2007
-#
-# Bridget T McInnes,       bthomson@d.umn.edu
-# Ted Pedersenm            tpederse@d.umn.edu
+# Bridget Thomson McInnes,       bthomson@d.umn.edu
 #
 # University of Minnesota, Duluth
 #
@@ -42,7 +40,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
 our @EXPORT = qw();
 
-our $VERSION = '0.3';
+our $VERSION = '0.5';
 
 #########################
 #  File Name Variables  #
@@ -1025,7 +1023,6 @@ Then, we get the following tokens:
 
     Sets the size of the window in which positional 
     ngram can be found in.
-
 =head1 AUTHOR
 
 Bridget Thomson McInnes, bthomson@d.umn.edu
@@ -1052,7 +1049,7 @@ used.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2004-2007, Bridget T McInnes and Ted Pedersen
+Copyright (C) 2004-2007, Bridget Thomson McInnes
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

@@ -12,6 +12,10 @@ Revision history for Perl extension Text::Positional::Ngram.
 0.3 Fri Apr 30 10:15:45 2004
 	- modified a bug in the driver program
 
-0.4 Wed Aug 22 15:16:23 2007
-        - updated program and documentation to require
-	  only Perl version 5.08 or higher 
+0.4 Mon Aug 29 9:12:56 2007
+        - modified Makefile to die if the version of 
+	  Perl used is less than 5.8.0 
+
+0.5 Tue Aug 28 14:04:21 2007
+        - modified Makefile to die if the version of 
+	  Perl used is less than 5.8.5
